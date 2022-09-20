@@ -10,8 +10,11 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7.11.0
       - name: Clone repository
         uses: actions/checkout@v2
       - name: Setup node
@@ -19,6 +22,6 @@ jobs:
         with:
           node-version: 16.x
       - name: Install Dependencies
-        run: npm ci
+        run: pnpm install
       - name: Test
         run: npm test
