@@ -31,6 +31,14 @@ describe('Join', () => {
     expect(join('..', '..', '..', 'a', 'b', 'c')).equals('../../../a/b/c');
   });
 
+  it('should work 7', () => {
+    expect(join('a', 'b', '', '', 'c')).equals('a/b/c');
+  });
+
+  it('should work 8', () => {
+    expect(join('a', 'b', '/', '/', 'c')).equals('a/b/c');
+  });
+
 });
 
 describe('Join URL', () => {
