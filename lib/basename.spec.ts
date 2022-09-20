@@ -20,3 +20,15 @@ describe('Basename', () => {
   });
 
 });
+
+describe('Basename URL', () => {
+
+  it('basename url test 1', () => {
+    expect(basename('http://127.0.0.1:8080/a.c')).equals('a.c');
+  });
+
+  it('basename url test 2', () => {
+    expect(basename('http://127.0.0.1:8080')).equals('');
+  });
+
+});

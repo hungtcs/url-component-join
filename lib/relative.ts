@@ -1,5 +1,5 @@
 import { join } from './join.js';
-import { segmentalize } from './normalize.js';
+import { segmentalize } from './helper.js';
 
 export function relative(from: string, to: string) {
   const sfs =  segmentalize(from);

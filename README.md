@@ -37,3 +37,9 @@ join('http://127.0.0.1:8080/a//b', '//c///d')
 join('http://127.0.0.1:8080/a//b', 'http://127.0.0.1:8080//c///d')
 // http://127.0.0.1:8080/a/b/c/d
 ```
+
+### `basename(path: string): string`
+
+### `dirname(path: string): string`
+
+### `relative(from: string, to: string): string`

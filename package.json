@@ -15,7 +15,8 @@
   "scripts": {
     "test": "wtr --coverage",
     "test:watch": "wtr --watch",
-    "build": "tsc --project tsconfig.lib.json"
+    "build": "tsc --project tsconfig.lib.json",
+    "prepare": "npm run build"
   },
   "keywords": [
     "join",

@@ -22,3 +22,7 @@ export function parseURL(url: string): Result {
     };
   }
 }
+
+export function stringifyURL({ protocol, host, port, path = '' }: Result): string {
+  return `${ protocol }://${ host ? `${ host }${ port ? `:${ port }` : '' }` : '' }${ path }`;
+}
