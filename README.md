@@ -1,4 +1,4 @@
-# Url Component Join
+# URL Component Join
 
 normalize and join url components
 
