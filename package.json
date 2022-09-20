@@ -1,0 +1,39 @@
+{
+  "name": "url-component-join",
+  "version": "0.0.0",
+  "description": "normalize and join url components",
+  "type": "module",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "wtr --coverage",
+    "test:watch": "wtr --watch",
+    "build": "tsc --project tsconfig.lib.json"
+  },
+  "keywords": [
+    "join",
+    "url-join",
+    "path",
+    "url"
+  ],
+  "author": {
+    "name": "hungtcs",
+    "email": "hungtcs@outlook.com",
+    "url": "https://github.com/hungtcs"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@open-wc/testing": "3.0.0-next.5",
+    "@types/mocha": "^9.1.1",
+    "@web/dev-server-esbuild": "^0.3.2",
+    "@web/test-runner": "^0.14.0",
+    "typescript": "^4.8.3"
+  }
+}
