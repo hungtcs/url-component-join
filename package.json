@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "normalize and join url components",
   "type": "module",
-  "module": "./dist/index.js",
+  "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
