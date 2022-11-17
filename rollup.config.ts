@@ -12,14 +12,14 @@ const options: RollupOptions = {
       dir: './dist/',
       format: 'esm',
       sourcemap: !production,
-      entryFileNames: 'index.mjs',
+      entryFileNames: 'index.js',
     },
     {
       dir: './dist/',
       name: 'UrlComponentJoin',
       format: 'umd',
       sourcemap: !production,
-      entryFileNames: 'index.js',
+      entryFileNames: 'index.cjs',
     },
   ],
   plugins: [

@@ -3,10 +3,9 @@
   "version": "0.0.4",
   "description": "normalize and join url components",
   "type": "module",
-  "main": "./dist/index.js",
   "exports": {
-    "import": "./dist/index.mjs",
-    "require": "./dist/index.js"
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
   },
   "types": "./dist/index.d.ts",
   "files": [
