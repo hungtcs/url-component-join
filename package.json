@@ -1,6 +1,6 @@
 {
   "name": "url-component-join",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "normalize and join url components",
   "type": "module",
   "main": "./dist/index.js",
